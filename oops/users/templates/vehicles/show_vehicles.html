@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OOP in Django</title>
+</head>
+<body>
+    <h1>Vehicles Information</h1>
+    <ul>
+        {% for info in vehicles_info %}
+        <li>{{ info }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
